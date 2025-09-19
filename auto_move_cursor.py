@@ -13,6 +13,6 @@ try:
         y = random.randint(0, screen_height - 1)
         # Move the mouse to the random position
         pyautogui.moveTo(x, y, duration=0.5)
-        time.sleep(1)
+    time.sleep(3)
 except KeyboardInterrupt:
     print("\nScript stopped by user.")
